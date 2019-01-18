@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\mrinalika_ghosh\Documents\VuGen\Scripts\Sample_proj
+-IC:\Program Files (x86)\HP\Virtual User Generator\include
+-ec:\users\mrinalika_ghosh\documents\vugen\scripts\sample_proj\\logfile.log
+c:\users\mrinalika_ghosh\documents\vugen\scripts\sample_proj\\combined_Sample_proj.c
+c:\users\mrinalika_ghosh\documents\vugen\scripts\sample_proj\\pre_cci.c

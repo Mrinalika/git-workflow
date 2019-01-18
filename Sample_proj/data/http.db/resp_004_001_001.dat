@@ -1,0 +1,31 @@
+<rules version="30">
+  <emie>
+    <domain exclude="false">simpleaccess.mhe.mhc<path exclude="false">/login/applogin.html</path></domain>
+    <domain exclude="false">simpleaccess-dev.mhe.mhc<path exclude="false">/login/applogin.html</path></domain>
+    <domain exclude="false">simpleaccess-qa.mhe.mhc<path exclude="false">/login/prelogin.html</path></domain>
+    <domain exclude="false">nj09mhe5692.mhe.mhc<path exclude="false">/applogin.html</path></domain>
+    <domain exclude="false">adpeet2.adp.com</domain>
+    <domain exclude="false">nj09mhe5060.mhe.mhc</domain>
+    <domain exclude="false">mymeetings.com</domain>
+    <domain exclude="false">mcgrawhillglobal.avantgardportal.com</domain>
+    <domain exclude="true">fidm.access.it-solutions.atos.net<path exclude="false">/auth/Login</path></domain>
+    <domain exclude="false">catalog.it-solutions.atos.net</domain>
+    <domain exclude="false">usd-gy.atos-services.net</domain>
+    <domain exclude="false">mhe-portal.it-solutions.atos.net</domain>
+    <domain exclude="false">nj09app037</domain>
+    <domain exclude="false">sms.mhe.mhc</domain>
+    <domain exclude="false">wfm-v2.incontact.com</domain>
+    <domain exclude="false">incontact.com</domain>
+  </emie>
+  <docMode>
+    <domain docMode="10">dev-punchout.vmox.com</domain>
+    <domain docMode="10">punchout.vmox.com</domain>
+    <domain docMode="10">dev-mhe.myvmox.com</domain>
+    <domain docMode="10">mhe.myvmox.com</domain>
+    <domain docMode="10">dev-one.vmox.com</domain>
+    <domain docMode="10">one.vmox.com</domain>
+    <domain docMode="10">s1.ariba.com<path docMode="10">/Buyer/Main/aw</path></domain>
+    <domain docMode="edge">s1-s.ariba.com</domain>
+    <domain docMode="edge">s1-2.ariba.com</domain>
+  </docMode>
+</rules>

@@ -1,0 +1,38 @@
+Virtual User Script started at : 1/7/2019 2:50:21 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Users\mrinalika_ghosh\Documents\VuGen\Scripts\Sample_proj\\default.cfg"  	[MsgId: MMSG-27141]
+Starting to download the proxy automatic configuration script, URL="http://pac.zscloud.net/mheducation.com/mhe_zscaler.pac"  	[MsgId: MMSG-27097]
+Proxy automatic configuration script (URL="http://pac.zscloud.net/mheducation.com/mhe_zscaler.pac") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "Sample_proj_01_LaunchURL" started.
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(10): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(10): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(13): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(13): Notify: Parameter Substitution: parameter "pDomain" =  "127.0.0.1:1080"
+Action.c(13): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(13): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(13): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(13): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(13): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(13): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(13): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(13): Error -26366: "Text=HTTP/1.1 204 OK" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(13): Registered web_reg_find successful for "Text=WebTours" (count=2)  	[MsgId: MMSG-26364]
+Action.c(13): web_url("WebTours") highest severity level was "ERROR", 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(13): Notify: Transaction "Sample_proj_01_LaunchURL" ended with a "Fail" status (Duration: 0.3007 Wasted Time: 0.0501).
+Action.c(13): Notify: Transaction "Sample_proj_01_LaunchURL" has 1 error message(s).
+Action.c(13): Notify: The 1st error message associated with transaction "Sample_proj_01_LaunchURL" is "Error -26366: "Text=HTTP/1.1 204 OK" not found for web_reg_find"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
